@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fff;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.input-box {
+  margin-top: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 5px;
+  background: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 500px;
+  margin: 30px auto;
+}
+
+li {
+  background: #575555;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.body {
+  background-color: #c52121;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
